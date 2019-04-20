@@ -1,0 +1,148 @@
+header {
+    margin: 20px;
+}
+
+/*Top 2 Logo*/
+.TMlogo {
+    display: inline-block;
+}
+
+.TMlogo img{
+    width: 150px;
+    height: 131.31px;
+}
+
+.CFlogo {
+    display: inline-block;
+}
+
+.CFlogo img {
+    width: auto;
+    height: 131.31px;
+}
+
+image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*Top 2 Buttons*/
+
+.extralink {
+    /*display: inline-block;*/
+    float: right;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.extralink a {
+    padding: 20px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: brown;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: 3px solid brown;
+    background: white;
+    letter-spacing: 1px;
+}
+
+/*link decoration for extra link on the top*/
+.extralink a:link {
+    text-decoration: none;
+}
+.extralink a:hover, a:active {
+    background-color: brown;
+    color: white;
+}
+.extralink a:visited {
+    text-decoration: none;
+}
+
+/*navigation bar*/
+.menu {
+    display: block;
+    background-color: lightcoral;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.menu a{
+    color: black;
+}
+
+/*navigation bar link decoration*/
+.menu a:link {
+    text-decoration: none;
+}
+.menu a:hover, a:active {
+    color: white;
+}
+.menu a:visited {
+    text-decoration: none;
+}
+
+
+/*footer stuffs*/
+.footer{
+    background: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-bottom {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    padding: 15px;
+    background: #e9eef3;
+}
+
+.bottom-content {
+    display: flex;
+    float: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creator {
+    float: left;
+    padding: 0;
+    display: block;
+}
+
+.creator p {
+    display: inline-block;
+}
+
+ul.social {
+    /*display: inline-block;*/
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    list-style-type: none;
+}
+
+ul.social li a {
+    display: inherit;
+    border-radius: 0;
+    color: black;
+    height: 28px;
+    margin: 0 4px;
+    position: relative;
+    transition: 0.4s;
+    width: 28px;
+}
