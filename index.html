@@ -3,85 +3,155 @@
     <head>
         <meta charset="utf-8" />
         <title>TM Conference 2020</title>
-        
-        <link rel="stylesheet" href="style.css"> <!--linking css file-->
-        <!--bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <!--bootstrap-->
-        <!--icons-->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        
     </head>
-    
+
     <body>
-        <header>
-            <div class="TMlogo">
-                <img src="img/Toastmasters%20International%20Logo.png"/>
+        <div class="header">
+            <!-- <a href="#default" class="logo">CompanyLogo</a> -->
+           
+            <img src="img/Toastmasters%20International%20Logo.png" height="100px"/>
+            <img src="img/TM_2020%20Conference%20Logo_FA.png" width="250px"/>
+            
+            <div class="header-right">
+              <a class="active" href="#home">Home</a>
+              <a href="#registration">Registration</a>
+              <a href="#info">Conference Info</a>
+              <a href="#speaker">Speakers</a>
+              <a href="#venue">Venue</a>
+              <a href="#contactus">Contact</a>
             </div>
-
-            <div class="CFlogo">
-                <img src="img/TM_2020 Conference Logo_FA.png"/>
-            </div>
-
-            <div class="extralink">
-                <p>
-                    <a href="https://forms.gle/2tyijE8b8vXxdrY9A">Register for Conference</a>
-                    <a class="donate" href="/donation/">Donate</a>
-                </p>
-            </div>
-        </header>   
-
-        <ul class="menu">
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#program">Program Flow</a></li>
-            <li><a href="#sponsor">Sponsors</a></li>
-            <li><a href="#tour">Tour</a></li>
-            <li><a href="#donation">Donation</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>   
-
-        <div class="interior">
-
         </div>
 
-        <footer class="footer">
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="bottom-content">
-                        <div class="box">
-                            <div class="creator">
-                                <p>Created by Nelson Khor | Powered by Google Firebase</p>
+        <div class="context">
+            <h1>Latest Announcement</h1>
+            <img src="img/registrationfee1.jpg" width=100%/> <!--slide shows of latest news-->
+            
+            <div class="registeration">
+                <h1 id="registration">Registration Information</h1>
+                <p> The 10th Anniversary District 87 Toastmasters Conference - RADICAL CHANGE </p>
+                <p> will be held from <b>April 17, 2020 - April 19th, 2020</b> at <b>Fourpoint Sheraton Sandakan</b></p> 
+                <p>Please click the link below to register for the Conference:</p>
+                <a href="https://forms.gle/2tyijE8b8vXxdrY9A" target="_blank">
+                    <img src="img/clickhere.png" >
+                </a>
+            </div>
+
+            <div class="info">
+                <h1 id="info">Conference Information</h1>
+                <p> This conference will bring together an impressive array of industry leaders
+                    and influencers to create a one-of-a-kind experience. Speakers will be
+                    covering a wide range of topics for everyone to discover.</p>
+
+                <p> Currently the conference program is being planned. Once the full schedule
+                    is finalized, we will announced it on here as well as on our social medias.
+                    In the meantime, pick up your tickets today to ensure your seat is reserved.
+                    We are looking forward to see you at this exciting event. </p>
+            </div>
+
+            <div class="speaker">
+                <h1 id="speaker">Speakers</h1>
+                <p> These are the current invited speakers. More will be updated soon.</p>
+                <p><strong>English Speakers</strong></p>
+                    
+                <div class="row">
+                        <div class="column">
+                            <div class="card">
+                                <img src="img/johnny.jpg" alt="Johnny" style="width:100%">
+                                <div class="container">
+                                    <h2>Johnny T. Uy</h2>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="column">
+                            <div class="card">
+                                <img src="img/maimunah.jpg" alt="Maimunah" style="width:100%">
+                                <div class="container">
+                                    <h2>Maimunah Natasha</h2>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="box">
-                            <ul class="social">
-                                <li>
-                                    <a href="https://www.facebook.com/District-87-Sandakan-Conference-2020-2186427624751441/" class="fa fa-facebook">
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="https://www.instagram.com/district87_sdk_conference_2020/" class="fa fa-instagram">
-                                    </a>
-                                </li>
-
-                            </ul>
+                        <div class="column">
+                            <div class="card">
+                                <img src="img/blank.png" alt="blank" style="width:100%">
+                                <div class="container">
+                                    <h2>More to come</h2>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
                 </div>
+
+                <p><strong>Mandarin Speakers</strong></p>
             </div>
 
-        </footer>
+            <div class="venue">
+                <h1 id="venue">Venue</h1>
+                <p>The hosting hotel for the conference is provided by Fourpoint Sharaton Hotel, Sandakan.</p>
+                <p>They have kindly provided a special rate for registed delegates. Please download the reservation form through the link below.</p>
+                
+                <a href="FPSS.pdf" download target="_blank">
+                    <img src="img/pdfimage.png" alt="pdf" width="10%">
+                </a>
 
-        <div>
-            <!--grouping stuff in an invisible box-->
-            <!--same function as <header>, <section>, <footer> etc.-->
-            <span>
-                <!--wrap a text/image inside a div box-->
-            </span>
+                    <div class="row2">
+                        <div class="column2">
+                            <div class="card2">
+                                <img src="img/hotel/1.jpg" alt="fp1" style="width:100%">
+                            </div>
+                        </div>
+                    
+                        <div class="column2">
+                            <div class="card2">
+                                <img src="img/hotel/2.jpg" alt="fp2" style="width:100%">
+                            </div>
+                        </div>
+
+                        <div class="column2">
+                            <div class="card2">
+                                <img src="img/hotel/3.jpg" alt="fp3" style="width:100%">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row2">
+                        <div class="column2">
+                            <div class="card2">
+                                <img src="img/hotel/4.jpg" alt="fp4" style="width:100%">
+                            </div>
+                        </div>
+                    
+                        <div class="column2">
+                            <div class="card2">
+                                <img src="img/hotel/5.jpg" alt="fp5" style="width:100%">
+                            </div>
+                        </div>
+
+                        <div class="column2">
+                            <div class="card2">
+                                <img src="img/hotel/6.jpg" alt="fp6" style="width:100%">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            
+            <div class="contactus">
+                <h1 id="contactus">Contact Us</h1>
+                <p> For any inquiry or question, you can reach us out at d87sdk2020@gmail.com.</p>
+            </div>
+            
+            
+
         </div>
-    
+
+
+
     </body>
+
+
 </html>
