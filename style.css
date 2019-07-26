@@ -90,7 +90,7 @@ html,body{
 
 .info p {
     margin: 0;
-    padding: 10px 100px;
+    padding: 10px 20px;
     font-size: 16pt;
     text-align: left;
 }
@@ -167,6 +167,14 @@ html,body{
       width: 100%;
       display: block;
     }
+}
+
+.team {
+    clear: both;
+}
+
+.contactus{
+    clear: both;
 }
 
 .contactus p {
