@@ -141,12 +141,32 @@ html,body{
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+.card3 {
+    text-align: left;
+}
+
+.card3 img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
   
   /* Some left and right padding inside the container */
 .container {
     padding: 0 16px;
 }
   
+.container3 {
+    padding: 0 16px;
+}
+
+.container3 h4 {
+    margin-left: 80px;
+    padding: 0 16px;
+}
+
   /* Clear floats */
 .container::after, .row::after {
     content: "";
@@ -162,8 +182,23 @@ html,body{
     display: block;
 }
 
+.column3 {
+    float: left;
+    width: 20%;
+    margin-bottom: 8px;
+    padding: 0;
+    display: block;
+}
+
 @media screen and (max-width: 885px) {
     .column2 {
+      width: 100%;
+      display: block;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .column3 {
       width: 100%;
       display: block;
     }
